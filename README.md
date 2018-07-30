@@ -1,2 +1,2 @@
 # cclient-telemetry-events
-Plugin for the Cryogen Client to act as an example for telemetry events
+Plugin for the Cryogen Client to listen for telemetry events from the Cryogen API.
