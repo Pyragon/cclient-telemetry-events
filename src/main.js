@@ -11,7 +11,7 @@ var _telemetry = function() {
       name,
       time: new Date().getTime()
     });
-    ui.getPlugins().updateDom('cclient-telemetry-events');
+    ui.getWidgets().updateDom('cclient-widget-telemetry-events');
   }
 
   return {
@@ -87,12 +87,12 @@ var _telemetry = function() {
     update: () => {
       if (userData != null && !updated) {
         updated = true;
-        ui.getPlugins().updateDom('cclient-telemetry-events');
+        ui.getWidgets().updateDom('cclient-widget-telemetry-events');
       }
     },
 
     getName: () => {
-      return 'cclient-telemetry-events';
+      return 'cclient-widget-telemetry-events';
     },
 
     getDelay: () => {
