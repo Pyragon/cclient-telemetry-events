@@ -1,22 +1,22 @@
 {
-  "name": "cclient-widget-telemetry-events",
-  "version": "1.0.0",
-  "description": "Example app to show how to listen for telemetry events and display the results",
-  "main": "src/main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/Pyragon/cclient-widget-telemetry-events.git"
-  },
-  "author": "Pyragon",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Pyragon/cclient-widget-telemetry-events/issues"
-  },
-  "homepage": "https://github.com/Pyragon/cclient-widget-telemetry-events#readme",
-  "dependencies": {
-    "dateformat": "^3.0.3"
-  }
+    "name": "cclient-widget-telemetry-events",
+    "version": "1.0.0",
+    "description": "Example app to show how to listen for telemetry events and display the results",
+    "main": "src/main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/Pyragon/cclient-widget-telemetry-events.git"
+    },
+    "author": "Pyragon",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Pyragon/cclient-widget-telemetry-events/issues"
+    },
+    "homepage": "https://github.com/Pyragon/cclient-widget-telemetry-events#readme",
+    "dependencies": {
+        "dateformat": "^3.0.3"
+    }
 }
